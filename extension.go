@@ -27,9 +27,7 @@ func (cc ccExtension) Templates() []*gen.Template { return []*gen.Template{} }
 
 // Options of the extensions.
 func (cc ccExtension) Options() []entc.Option {
-	return []entc.Option{
-		entc.FeatureNames(gen.FeatureGlobalID.Name, gen.FeatureModifier.Name),
-	}
+	return []entc.Option{}
 }
 
 // ExtensionOption is an option for the ccExtension.
